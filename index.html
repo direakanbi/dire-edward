@@ -1,27 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-  <body>
-    <h1>Hello World</h1>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<nav id="navbar">
+  <header>HTML And CSS</header>
+    <ul>
+      <li><a href="#introduction_to_html" class="nav-link">Introduction to HTML</a></li>
+      <li><a href="#html_history" class="nav-link">HTML History</a></li>
+     <li><a href="#elements,_tags_and_attributes" class="nav-link">Elements, Tags and Attributes</a></li>
+      <li><a href="#introduction_to_css" class="nav-link">Introduction to CSS</a></li>
+      <li><a href="#css_history" class="nav-link">CSS History</a></li>
+      <li><a href="#why_use_css" class="nav-link">Why Use CSS</a></li>
+      <li><a href="#reference" class="nav-link">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+ <section class="main-section" id="introduction_to_html">
+    <header>Introduction to HTML</header>
+      <article>
+       <h3>What is HTML?</h3>
+       <p>HTML (Hyper Text Markup Language) is the language in which most websites are written. HTML is used to create pages and make them functional. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+       <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+        <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <code>< head ></code>,<code>< title ></code> , <code>< body ></code> , <code>< header ></code> , <code>< footer ></code> , <code>< p ></code> , <code>< div ></code> , <code>< img ></code> , <code>< nav ></code> , <code>< ul ></code> , <code>< ol ></code> , <code>< li ></code> and many others.</p>
+      </article>
+  </section>
+  <section class="main-section" id="html_history">
+    <header>HTML History</header>
+      <article>
+        <h3>Who Created HTML?</h3>
+        <p>HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in 1989. It stands for Hyper Text Markup Language.</p>
+        <p>HTML is a very evolving markup language and has evolved with various versions updating. Long before its revised standards and specifications are carried in, each version has allowed its user to create web pages in the much easier and prettier way and make sites very efficient.</p>
+        <h3>Versions:</h3>
+          <ul>
+            <li>HTML 1.0</li>
+            <li>HTML 2.0</li>
+            <li>HTML 3.0</li>
+            <li>HTML 3.2(Wilbur)</li>
+            <li>HTML 4.0(Cougar)</li>
+            <li>XHTML</li>
+            <li>HTML 5</li>
+        </ul>
+        <small><a href="https://en.wikipedia.org/wiki/HTML#HTML_versions_timeline" id="timeline">Read more about HTML versions Timline</a></small>
+    </article>
+  </section>
+  <section class="main-section" id="elements,_tags_and_attributes">
+    <header>Elements, Tags and Attributes</header>
+      <article>
+         <h3>What are Elements?</h3>
+          <p>An HTML document is made up of HTML elements which comprise of HTML tags and usually contain HTML attributes and values in the following format:<br><code>< tagname >Content goes here...< /tagname ></code></p>
+         <h3>What are Tags?</h3>
+        <p>Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets. An example of a tag is: <code>< h1 ></code>.
 
-    <!--
+            Most tags must be opened <code>< h1 ></code> and closed <code>< /h1 ></code> in order to function.</p>
+        <h3>What are Attributes?</h3>
+          <p>Attributes contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.</p>
+<p>An example of an attribute is:<br><code>< img src="mydog.jpg" alt="A photo of my dog." ></code></p>
+    </article>
+  </section>
+  <section class="main-section" id="introduction_to_css">
+    <header>Introduction to CSS</header>
+      <article>
+        <h3>What is CSS?</h3>
+          <ul>
+            <li>CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</li>
+            <li>CSS stands for Cascading Style Sheets</li>
+            <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+</li>
+            <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once
+</li>
+            <li>External stylesheets are stored in CSS files
+</li>
+        </ul>
+    </article>
+  </section>
+  <section class="main-section" id="css_history">
+    <header>CSS History</header>
+      <article>
+        <h3>Who created CSS?</h3>
+        <p>CSS was first proposed by Hakon Wium Lie on October 10, 1994. At the time, Lie was working with Tim Berners-Lee at CERN. Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS.</p>
+      <h3>Variations:</h3>
+        <dl>
+          <dt>CSS1(1996)</dt>
+            <dd>Allows the user to select font style and size and change the colour of the text and background.</dd>
+          <dt>CSS2(1998)</dt>
+            <dd>Has capabilities that allows the user to design page layout. </dd>
+          <dt>CSS3(1999)</dt>
+            <dd>Allows the user to create presentations from documents and to select from a wider range of fonts including those from Google and Typecast. Uniquely, CSS3 allows the user to incorporate rounded borders and use multiple columns. CSS3 is considered to be easier to use (when compared to CSS2) because it has different modules.</dd>
+        </dl>
+    </article>
+  </section>
+  <section class="main-section" id="why_use_css">
+    <header>Why Use CSS</header>
+      <article>
+        <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+        <h3>Example of CSS:</h3>
+          <pre>body {
+  background-color: lightblue;
+}
 
-    Hello Camper!
+h1 {
+  color: white;
+  text-align: center;
+}
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+p {
+  font-family: verdana;
+  font-size: 20px;
+}</pre>
+      <h3>How CSS Solved a Big Problem?</h3>
+        <p>HTML was NEVER intended to contain tags for formatting a web page!
 
-    - The freeCodeCamp Team
+          HTML was created to describe the content of a web page, like:
+ <pre>
+< h1 >This is a heading< /h1 >
 
-    -->
-    <script  src="js/index.js"></script>
-  </body>
-</html>
+< p >This is a paragraph.< /p ></pre>
+
+<p>When tags like <code>< font ></code>, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+
+To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+
+CSS removed the style formatting from the HTML page!</p>
+    </article>
+  </section>
+  <section class="main-section" id="reference">
+    <header>Reference</header>
+      <aritcle>
+        <h3>Following web sites are used as references for this project:</h3>
+          <ul>
+            <li><a href="https://html.com/">html.com</a></li>
+            <li><a href="https://www.w3schools.com/html/">w3schools.com</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Wikipedia</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN</a></li>
+        </ul>
+    </aritcle>
+  </section>
+</main>
